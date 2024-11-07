@@ -16,5 +16,24 @@ nounModBtn.addEventListener("click", ()=>{
     nounModBtn.style.display = 'none'
 })
 
+// Menyudagi oziq-ovqatlar va tanlangan holatini saqlash uchun useState
+// const [menuItems, setMenuItems] = useState([
+//     { name: 'Burger', selected: false },
+//     { name: 'Pizza', selected: false },
+//     { name: 'Fried Chicken', selected: false },
+//     { name: 'Fries', selected: false },
+//     { name: 'Soda', selected: false },
+//   ]);
+
+//   const Fy = () => {
+//     const num = true;
+//     return (
+//       <h1>Hello {num ? "World" : "Wolf"}</h1>
+//     );
+//   }
+
+//   const Click = () => {
+//     console.log("Button clicked!");
+//   };
 
 AOS.init();
