@@ -1,0 +1,876 @@
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 90%;
+    }
+}
+/* 900 */
+@media only screen and (max-width: 900px){
+    .main-cont{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .d-flex{
+        flex-direction: column-reverse;
+    }
+    .right-imags-content{
+        width: 100% ;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid; */
+        padding-left: 40px;
+    }
+    
+    .images-i{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #fff; */
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    
+    .images-i img{
+        width: 50%;
+        height: auto;
+    }
+    .posImg{
+        display: block;
+    }
+    .posbc{
+        display: none;
+    }
+    /* left */
+
+    .left-text-content{
+        width: 100%;
+        height: 410px;
+        margin: auto;
+    }
+    .left-text-content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .text-center-p {
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+    .text-center-p p{
+        font-size: 16px;
+    }
+    .btn-mein{
+        text-align: center;
+        margin:0;
+    }
+    .btn-mein a{
+        padding: 15px 60px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .teleg-1{
+        display: none;
+    }
+    .teleg-3{
+        display: none;
+    }
+    .teleg-2{
+        left: 80%;
+        top: 70%;
+        opacity: 0.4;
+    }
+
+    /* cours */
+    .cours_info{
+        height: auto;
+        overflow-x: hidden;
+    }
+    .right_text_cours{
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    .bottom-none{
+        display: none;
+    }
+    .lereMore{
+        display: block;
+        margin: 20px 0;
+        text-align: end;
+    }
+    .lereMore a{
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Product Sans', sans-serif;
+    }
+    .cours_btn button{
+        background: linear-gradient(90deg,#085a8a 1%, #008DE1  );
+    }
+    .left_img_cours{
+        width: 100%;
+        height: 68vh;
+        overflow: hidden;
+    }
+    .lef-cours_pos{
+        position: absolute;
+        bottom: -20px;
+        z-index: 1;
+    }
+    .lef-cours_pos img{
+        width: 60%;
+    }
+    .tg_cours_img{
+        position: absolute;
+        bottom: -10px;
+        right: 43%;
+        z-index: 3;
+    }
+    .tg_cours_img img{
+        width: 60%;
+    }
+    .cours_postion_tg{
+        display: none;
+    }
+    .cours_postion_tg-none{
+        display: block;
+        position: absolute;
+        right: -35%;
+    }
+    .cours_postion_tg-none img{
+        width: 50%;
+    }
+    /* new anser */
+    
+    .anser-cent{
+        position: relative;
+        z-index: 999;
+    }
+    .top_text_ans h1{
+        font-size: 35px;
+    }
+    .top_text_ans h1 i{
+        font-size: 35px;
+    }
+    .top_text_ans p{
+        font-size: 16px;
+        width: 60%;
+    }
+    .imags_pt_1{
+        display: none;
+    }
+    .imags_pt_2{
+        opacity: 0.4;
+        z-index: 1;
+    }
+    .imags_pt_3{
+        opacity: 0.4;
+        z-index: 1;
+    }
+    .anser-cent{
+        padding-left: 40px;
+    }
+    /* new housor  section 4*/
+    .housor-section{
+        background-image: url("../img/Rectangle\ 151.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #0c101f;
+        padding: 100px 0;
+    }
+    .hourS-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_hours_images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right_hours-text{
+        width: 100%;
+        padding-top: 0;
+        margin-top: -5px;
+    }
+    .right_hours-text h1, .right_hours-text h4{
+        text-align: center;
+    }
+    /* modalls section */
+    .texts_mod_t{
+        width: 90%
+    }
+
+
+
+    /* tariffs_boxs */
+
+    .traffs_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .taf_box-fuu{
+        width: 80%;
+        margin-bottom: 50px;
+        border-top: 1px solid wheat;
+    }
+
+    /* result start */
+
+    .result_box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_rusult{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .res_imges_ls{
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .right_results{
+        width: 100%;
+        align-items: center;
+        padding-bottom:  0;
+    }
+    .res_imges_rg{
+        margin-bottom: 50px;
+    }
+
+    /* end */
+
+
+    
+}
+
+/* 600 */
+
+@media only screen and (max-width: 600px){
+    .d-flex{
+        flex-direction: column-reverse;
+    }
+    .right-imags-content{
+        width: 100% ;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid; */
+        padding-left: 40px;
+    }
+    
+    .images-i{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #fff; */
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    
+    .images-i img{
+        width: 70%;
+        height: auto;
+    }
+    .posImg{
+        display: block;
+    }
+    .posbc{
+        display: none;
+    }
+    
+
+    /* left */
+
+    .left-text-content{
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+    .left-text-content h1{
+        font-size: 25px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .text-center-p p{
+        font-size: 14px;
+    }
+    .btn-mein{
+        text-align: center;
+        margin:0;
+    }
+    .btn-mein a{
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+    .text-center-p{
+        padding-right: 0;
+        padding-left: 50px;
+    }
+    .teleg-1{
+        display: none;
+    }
+    .teleg-3{
+        display: none;
+    }
+    .teleg-2{
+        left: 80%;
+        top: 70%;
+        opacity: 0.4;
+    }
+
+    /* cours */
+    .cours_info{
+        height: auto;
+        overflow-x: hidden;
+    }
+    .right_text_cours{
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    .bottom-none{
+        display: none;
+    }
+    .lereMore{
+        display: block;
+        margin: 20px 0;
+        text-align: end;
+    }
+    .lereMore a{
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Product Sans', sans-serif;
+    }
+    .cours_btn button{
+        background: linear-gradient(90deg,#085a8a 1%, #008DE1  );
+    }
+    .left_img_cours{
+        width: 100%;
+        height: 68vh;
+    }
+    .lef-cours_pos{
+        position: absolute;
+        bottom: -10px;
+        z-index: 1;
+    }
+    .lef-cours_pos img{
+        width: 60%;
+    }
+    .tg_cours_img{
+        position: absolute;
+        /* bottom: 0px; */
+        right: 20%;
+        z-index: 3;
+    }
+    .tg_cours_img img{
+        width: 60%;
+    }
+    .cours_postion_tg{
+        display: none;
+    }
+    .cours_postion_tg-none{
+        display: block;
+        position: absolute;
+        right: -70%;
+    }
+    .cours_postion_tg-none img{
+        width: 40%;
+    }
+    /* new housor  section 4*/
+    .housor-section{
+        background-image: url("../img/Rectangle\ 151.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #0c101f;
+        padding: 100px 0;
+    }
+    .hourS-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_hours_images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right_hours-text{
+        width: 100%;
+        padding-top: 0;
+        margin-top: -10px;
+    }
+    .right_hours-text h1, .right_hours-text h4{
+        text-align: center;
+    }
+    .left_hours_images img{
+        width: 50%;
+    }
+    .hourS-cent p{
+        font-size: 16px;
+    }
+
+
+    /* modalls section */
+    .texts_mod_t{
+        width: 90%
+    }
+    .texts_mod_t p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .miniText_modls h1{
+        font-size: 28px;
+    }
+
+    .miniText_modls p{
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.4px;
+    }
+    .mod_4tg{
+        position: absolute;
+        z-index: 1;
+        top: 550px;
+        left: -100px;
+        opacity: 0.5;
+    }
+    .mod_4tg img{
+        width: 100px;
+    }
+    /* start question */
+    .blocks_que{
+        width: 100%;
+    }
+    .ques_block_texts{
+        padding: 30px 30px;
+    }
+    .ques_block_texts b{
+        font-size: 18px;
+        font-family: 'proxima nova regular', sans-serif;
+        font-weight: 600;
+        color: #008DE1;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+    
+    .ques_block_texts p{
+        font-size: 16px;
+        font-family: 'proxima nova regular', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .text_quest_pos{
+        position: absolute;
+        top: -40px;
+        left: -30px;
+    }
+    .text_quest_pos h1{
+        font-size: 70px;
+        font-family: 'Product Sans', sans-serif;
+        text-shadow: 10px 8px 4px 0px #0000004D;
+        color: #FFFFFF;
+    }
+    .quetion_bottom a{
+        padding: 15px 60px;
+        font-size: 25px;
+    }
+}
+/* 400 */
+@media only screen and (max-width: 430px){
+    /* .main-cont{
+        height: auto;
+    } */
+    .d-flex{
+        flex-direction: column-reverse;
+    }
+
+    .top_bars_ie span{
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+
+
+    .right-imags-content{
+        width: 100% ;
+        height: 400px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid; */
+        padding-left: 40px;
+    }
+    
+    .images-i{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid #fff; */
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+    }
+    
+    .images-i img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .posImg{
+        display: block;
+    }
+    .posbc{
+        display: none;
+    }
+    
+
+    /* left */
+
+    .left-text-content{
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .left-text-content h1{
+        font-size: 22px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .text-center-p{
+        padding-right: 0;
+    }
+    .text-center-p p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .btn-mein{
+        text-align: center;
+        margin:0;
+    }
+    .btn-mein a{
+        padding: 15px 60px;
+        font-size: 15px;
+        margin: 0;
+    }
+    .teleg-1{
+        display: none;
+    }
+    .teleg-3{
+        display: none;
+    }
+    .teleg-2{
+        left: 80%;
+        top: 70%;
+        opacity: 0.4;
+    }
+
+    /* cours */
+    .cour-info_text h1{
+        font-size: 30px;
+    }
+    .cour-info_text h1 i{
+        font-size: 30px;
+    }
+    .cours_info{
+        height: auto;
+        overflow-x: hidden;
+    }
+    .right_text_cours{
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    .bottom-none{
+        display: none;
+    }
+    .lereMore{
+        display: block;
+        margin: 20px 0;
+        text-align: end;
+    }
+    .lereMore a{
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Product Sans', sans-serif;
+    }
+    .cours_btn button{
+        background: linear-gradient(90deg,#085a8a 1%, #008DE1  );
+    }
+    .left_img_cours{
+        width: 100%;
+        height: 68vh;
+    }
+    .lef-cours_pos{
+        position: absolute;
+        bottom: -10px;
+        z-index: 1;
+    }
+    .lef-cours_pos img{
+        width: 80%;
+    }
+    .tg_cours_img{
+        position: absolute;
+        /* bottom: 0px; */
+        right: -20%;
+        z-index: 3;
+    }
+    .tg_cours_img img{
+        width: 50%;
+    }
+    .cours_postion_tg{
+        display: none;
+    }
+    .cours_postion_tg-none{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: -120%;
+    }
+    .cours_postion_tg-none img{
+        width: 20%;
+    }
+    .tex_blx p{
+        font-size: 16px;
+    }
+    /* new houser */
+    .hourS-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_hours_images{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right_hours-text{
+        width: 100%;
+        padding-top: 0;
+        margin-top: -10px;
+    }
+    .right_hours-text h1, .right_hours-text h4{
+        text-align: center;
+    }
+    .right_hours-text h1{
+        font-size: 35px;
+    }
+    .right_hours-text h4{
+        font-size: 25px;
+    }
+    .left_hours_images img{
+        width: 50%;
+    }
+    .hourS-cent p{
+        font-size: 16px;
+    }
+
+
+    /* modalls section */
+    .texts_mod_t{
+        width: 90%
+    }
+
+    .bottom_modal_opens button{
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+
+    .box_modalls_foo{
+        padding: 25px;
+    }
+
+    .texts_mod_t p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .miniText_modls h1, .miniText_modls_bt h1{
+        font-size: 22px;
+    }
+
+    .miniText_modls p, .miniText_modls_bt p{
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.4px;
+    }
+
+    .box_M_text{
+        text-align: center;
+    }
+    .box_M_text h1{
+        font-size: 30px;
+    }
+    .box_M_text h1:last-child{
+        font-size: 30px;
+    }
+    .mod_4tg{
+        position: absolute;
+        z-index: 1;
+        top: 550px;
+        left: -50px;
+        opacity: 0.1;
+    }
+    .mod_4tg img{
+        width: 100px;
+    }
+
+    /* tariffs_boxs */
+
+    .traffs_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .taf_box-fuu{
+        width: 100%;
+        margin-bottom: 50px;
+        border-top: 1px solid wheat;
+    }
+    .info_fuu_box p{
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .fuu_text h1{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    
+    .fuu_text h2{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 44px;
+        color: #FFFFFF;
+    }
+    /* result start */
+
+    .result_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .resutl_textTop h1{
+        font-size: 30px;
+    }
+    
+    .resutl_textTop h1 span{
+        font-size: 30px;
+    }
+    .left_rusult{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .res_imges_ls{
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    .res_imges_ls img{
+        width: 100%;
+    }
+
+    .right_results{
+        width: 100%;
+        align-items: center;
+        padding-bottom:  0;
+    }
+    .res_imges_rg{
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+    .res_imges_rg img{
+        width: 100%;
+    }
+
+    /* end */
+
+
+
+
+
+
+    /* start question */
+    .blocks_que{
+        width: 100%;
+    }
+    .ques_block_texts{
+        padding: 30px 10px;
+    }
+    .ques_block_texts b{
+        font-size: 16px;
+        font-family: 'proxima nova regular', sans-serif;
+        font-weight: 600;
+        color: #008DE1;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    
+    .ques_block_texts p{
+        font-size: 14px;
+        font-family: 'proxima nova regular', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .text_quest_pos{
+        position: absolute;
+        top: -40px;
+        left: -10px;
+    }
+    .text_quest_pos h1{
+        font-size: 60px;
+        font-family: 'Product Sans', sans-serif;
+        text-shadow: 10px 8px 4px 0px #0000004D;
+        color: #FFFFFF;
+    }
+    .quetion_bottom a{
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+    .ques_block_texts{
+        margin-bottom: 80px;
+    }
+    .question_topText h1{
+        font-size: 30px;
+    }
+    .question_topText h1 span{
+        font-size: 30px;
+    }
+}
+
+

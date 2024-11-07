@@ -1,0 +1,105 @@
+@media only screen and (max-height: 655px){
+    
+    .images-i img{
+        width: 100%;
+        height: auto;
+    }
+    .cours_info{
+        width: 100%;
+        height: 150vh;
+        background: linear-gradient(-300deg, #02284c 0%, #47A6FF);
+    }
+    
+    .cour-info_text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .cour-info_text h1{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 40px ;
+        letter-spacing: 2px ;
+        color: #FFFFFF;
+    }
+    .cour-info_text h1 i{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 40px ;
+        color: #071530;
+        font-weight: 900;
+    }
+    
+    .lef-cours_pos img{
+        width: 70%;
+    }
+    
+    /* right cours */
+    
+    
+    .images-i{
+        width: auto;
+        height: 100%;
+        /* border: 1px solid #fff; */
+        z-index: 100;
+    }
+    
+    .images-i img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .cours_postion_tg{
+        position: absolute;
+        right: 20%;
+        z-index: 0;
+    }
+    .text_cours-in{
+        width: 100%;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .text_cours-in p{
+        font-size: 16px;
+        font-family: 'proxima nova regular', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .text_cours-in  span{
+        margin-right: 10px;
+    }
+    .text_cours-in  span img{
+        width: 20px;
+    }
+    .text_cours-in span:last-child{
+        width: 100%;
+    }
+    .tex_blx{
+        margin-top: 15px;
+        display: flex;
+    }
+    .cours_btn {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .cours_btn button{
+        padding: 15px 60px;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #fff;
+        border: 1px solid #fff;
+        background: linear-gradient(90deg,#085a8a 1%, #0c101f  );
+        /* background: linear-gradient(0.25turn, #008DE1 0%, #008DE1); */
+        cursor: pointer;
+        font-family: 'Product Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .lereMore{
+        display: none;
+    }
+}
